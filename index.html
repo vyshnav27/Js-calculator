@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script> <!--js script -->
+</head>
+<body>
+    <div class="body"> <!--Main Body-->
+
+        <!-- Calculator Body -->
+        <div class="calaculator">
+            <div class="output">
+                <input type="text" id="screen">
+            </div>
+            <div class="button">   
+                <div class="row"><!--First Row-->
+                    <button class="but3" onclick="rem()">C</button>
+                    <button class="but2" onclick="sum()">=</button>
+               </div>           
+                <div class="row">
+                     <button class="but" onclick="bclick(7)">7</button> 
+                     <button class="but" onclick=" bclick(8)">8</button>
+                     <button class="but" onclick=" bclick(9)">9</button>
+                     <button class="but" onclick=" bclick('+')">+</button> 
+                     
+                </div>
+                <div class="row">
+                    <button class="but" onclick="bclick(4)">4</button> 
+                    <button class="but" onclick="bclick(5)">5</button>
+                    <button class="but" onclick="bclick(6)">6</button>
+                    <button class="but" onclick="bclick('-')">-</button>
+                </div>
+                <div class="row">
+                    <button class="but" onclick=" bclick(1)">1</button> 
+                    <button class="but" onclick=" bclick(2)">2</button>
+                    <button class="but" onclick=" bclick(3)">3</button>
+                    <button class="but" onclick="bclick('*')">*</button>
+                </div>
+                <div class="row">
+                    <button class="but" onclick=" bclick('.')">.</button> 
+                    <button class="but" onclick=" bclick(0)" >0</button>
+                    <button class="but" onclick=" bclick('#')" >#</button>
+                    <button class="but" onclick=" bclick('/')">/</button> 
+                    
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
